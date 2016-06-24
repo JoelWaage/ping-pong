@@ -17,11 +17,11 @@ var pongList = function(ping) {
       }
     }
   } else if (ping === 0) {
-    alert("I need more than ZERO!!")
+    result.push("I need more than ZERO!!");
   } else  if (ping < 0){
-    alert("Negative Ping-Pong Makes No Sense, Man!!")
+    result.push("Negative Ping-Pong Makes No Sense, Man!!");
   } else {
-    alert("We're looking for a number here...a POSITIVE number")
+    result.push("We're looking for a number here...a POSITIVE number");
   }
 }
 
