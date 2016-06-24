@@ -9,7 +9,7 @@ A little site to meet the requirements of week 3 of the intro course.
 ## Specifications
 
 |Behavior | Example Input | Example Output |
-|:|::|::|
+|--------:|:-------------:|:--------------:|
 |A number is not divisible by 3 or 5 remains as is| 13 | 13 |
 |A number that is divisible by 3 is replaced with the string "ping" | 9 | "ping"|
 |A number that is divisible by 5 is replace with the string "pong"| 10 | "pong"|
