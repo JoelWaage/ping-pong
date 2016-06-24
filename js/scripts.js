@@ -29,6 +29,7 @@ var pongList = function(ping) {
 
 $(document).ready(function() {
   $("form#blank").submit(function(event) {
+    $("#result").empty();
     event.preventDefault();
     ping = parseInt($("input#ping").val());
     pongList(ping);
