@@ -4,9 +4,9 @@ A little site to meet the requirements of week 3 of the intro course.
 
 ## Installation
 
- https://joelwaage.github.io/ping-pong/
+ https://JoelWaage.github.io/ping-pong/
 
- ## Specifications
+## Specifications
 
 |Behavior | Example Input | Example Output |
 |:|::|::|
