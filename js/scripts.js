@@ -15,6 +15,12 @@ var pongList = function(ping) {
         result.push(i);
       }
     }
+  } else if (ping === 0) {
+    alert("I need more than ZERO!!")
+  } else  if (ping < 0){
+    alert("Negative Ping-Pong Makes No Sense, Man!!")
+  } else {
+    alert("We're looking for a number here...a POSITIVE number")
   }
 }
 
@@ -23,14 +29,15 @@ var pongList = function(ping) {
 $(document).ready(function() {
   $("form#blank").submit(function(event) {
     event.preventDefault();
+    $("#result").remove();
     ping = parseInt($("input#ping").val());
     pongList(ping);
 
-    for (var i = 0; i <= result.length; i++) {
-      $("#result").append("<li>" + result[i] + "</li>")
+    for (var i = 0; i <= result.length - 1; i++) {
+      $("#result").append("<li>" + result[i] + "</li>");
     }
 
-
+    $("#blank").trigger("reset");
 
   });
 });
