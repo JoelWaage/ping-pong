@@ -35,7 +35,7 @@ $(document).ready(function() {
     pongList(ping);
 
     for (var i = 0; i <= result.length - 1; i++) {
-      $("#result").append("<li>" + result[i] + "</li>");
+      $("#result").append("<li>" + result[i] + "</li>").slideDown();
     }
 
     $("#blank").trigger("reset");
