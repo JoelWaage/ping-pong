@@ -24,10 +24,13 @@ $(document).ready(function() {
   $("form#blank").submit(function(event) {
     event.preventDefault();
     ping = parseInt($("input#ping").val());
-    // result = pongList(ping);
-
     pongList(ping);
-    console.log(result.join());
+
+    for (var i = 0; i <= result.length; i++) {
+      $("#result").append("<li>" + result[i] + "</li>")
+    }
+
+
 
   });
 });

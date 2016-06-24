@@ -4,11 +4,11 @@ body {
   text-align: right;
 }
 
-h1 {
-  color:#ff6633;
-}
-
 img {
   float:right;
   height: 40%
+}
+
+li {
+  text-align: left;
 }
