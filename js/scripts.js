@@ -3,6 +3,7 @@ var result = [];
 
 
 var pongList = function(ping) {
+  result = [];
   if (ping  > 0) {
     for (var i = 01; i <= ping; i++) {
       if ((i % 3 === 0) && (i % 5 === 0)) {
