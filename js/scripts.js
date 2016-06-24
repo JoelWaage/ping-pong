@@ -20,9 +20,7 @@ var pongList = function(ping) {
     result.push("I need more than ZERO!!");
   } else  if (ping < 0){
     result.push("Negative Ping-Pong Makes No Sense, Man!!");
-  } else {
-    result.push("We're looking for a number here...a POSITIVE number");
-  }
+  } 
 }
 
 

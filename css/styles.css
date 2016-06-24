@@ -13,3 +13,8 @@ li {
   text-align: left;
   font-size: 1.3em;
 }
+
+input, textarea {
+  background-color: #ffcc99;
+  color: #ff6633;
+}
